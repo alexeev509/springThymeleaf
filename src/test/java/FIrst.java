@@ -5,6 +5,6 @@ import org.junit.Test;
 public class FIrst {
     @Test
     public void firstTest() throws Exception {
-        Assert.assertEquals(5, 5);
+        Assert.assertEquals(5, 4);
     }
 }
