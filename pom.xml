@@ -7,19 +7,8 @@
     <groupId>groupId</groupId>
     <artifactId>springThymeleaf</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-    <packaging>war</packaging>
+    <!--<packaging>war</packaging>-->
+
 
     <dependencies>
         <dependency>
@@ -47,8 +36,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.5</version>
-            <scope>test</scope>
+            <version>4.12</version>
         </dependency>
 
     </dependencies>
