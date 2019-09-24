@@ -3,7 +3,8 @@
 <head>
     <title>Getting Started: Handing Form Submission</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link href="/style/first.css" rel="stylesheet">
+    <link th:href="@{/style/first.css}" rel="stylesheet">
+    <script th:src="${@mvcResourceUrlProvider.getForLookupPath('/js/first.js')}"></script>
 </head>
 <body>
 <h1 class="redLetters">Form</h1>

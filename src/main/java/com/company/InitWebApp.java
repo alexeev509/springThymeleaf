@@ -14,9 +14,7 @@ public class InitWebApp implements WebApplicationInitializer {
     public void onStartup(ServletContext servletContext) throws ServletException {
         AnnotationConfigWebApplicationContext applicationContext=new AnnotationConfigWebApplicationContext();
         applicationContext.register(AppConfig.class);
-
         DispatcherServlet dispatcherServlet=new DispatcherServlet(applicationContext);
-
         ServletRegistration.Dynamic registration =servletContext.addServlet("dispatcher",dispatcherServlet);
         registration.addMapping("/");
         registration.setLoadOnStartup(1);
