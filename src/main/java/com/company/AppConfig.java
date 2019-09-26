@@ -16,7 +16,9 @@ import org.thymeleaf.templatemode.TemplateMode;
 import java.util.concurrent.TimeUnit;
 //Good article about caching resourses in browser
 //https://www.baeldung.com/cachable-static-assets-with-spring-mvc
-
+//https://www.mscharhag.com/spring/resource-versioning-with-spring-mvc
+//http://qaru.site/questions/209978/why-does-browser-still-sends-request-for-cache-control-public-with-max-age
+//etag !!!
 @Configuration
 @ComponentScan("com.company")
 @EnableWebMvc
